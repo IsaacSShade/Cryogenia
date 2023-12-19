@@ -1,4 +1,27 @@
-[gd_scene format=3 uid="uid://cr1q1riajs634"]
+[gd_scene load_steps=4 format=3 uid="uid://cr1q1riajs634"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_xx64b"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tc83y"]
+size = Vector3(10, 1, 10)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0j31v"]
+size = Vector3(10, 1, 10)
 
 [node name="Node3D" type="Node3D"]
-transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00352454, -0.00149113, -0.0174142)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+physics_material_override = SubResource("PhysicsMaterial_xx64b")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_tc83y")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(0.975, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_0j31v")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.766044, 0.642788, 0, -0.642788, -0.766044, -0.00120163, 1.98631, 0.00179148)
+shadow_enabled = true
