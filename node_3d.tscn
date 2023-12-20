@@ -1,4 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://cr1q1riajs634"]
+[gd_scene load_steps=5 format=3 uid="uid://cr1q1riajs634"]
+
+[ext_resource type="PackedScene" uid="uid://clkdfbxly2kkl" path="res://player.tscn" id="1_cxgwn"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_xx64b"]
 
@@ -36,3 +38,10 @@ mesh = SubResource("BoxMesh_0j31v")
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -0.766044, 0.642788, 0, -0.642788, -0.766044, -0.00120163, 1.98631, 0.00179148)
 shadow_enabled = true
+
+[node name="Player" parent="." instance=ExtResource("1_cxgwn")]
+
+[node name="CameraPivot" type="Marker3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 0.984808, 0.173648, 0, -0.173648, 0.984808, 0, 2, 5)
+
+[node name="Camera3D" type="Camera3D" parent="Player/CameraPivot"]
