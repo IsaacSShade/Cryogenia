@@ -1,4 +1,5 @@
+CollisionShape3D
+CollisionPolygon3D
 DirectionalLight3D
 MeshInstance3D
 StaticBody3D
-CollisionShape3D

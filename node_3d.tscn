@@ -22,6 +22,17 @@ shape = SubResource("BoxShape3D_tc83y")
 transform = Transform3D(0.975, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("BoxMesh_0j31v")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.12081, 0)
+physics_material_override = SubResource("PhysicsMaterial_xx64b")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D/StaticBody3D"]
+shape = SubResource("BoxShape3D_tc83y")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D/StaticBody3D"]
+transform = Transform3D(0.975, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_0j31v")
+
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -0.766044, 0.642788, 0, -0.642788, -0.766044, -0.00120163, 1.98631, 0.00179148)
 shadow_enabled = true
