@@ -27,10 +27,10 @@
 <!-- PROJECT LOGO -->
 
 <br />
-<!--<div align="center">
-  <a href="https://github.com/macbee280/byteland">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
--->  </a>
+<div align="center">
+  <a href="https://github.com/IsaacSShade/Cryogenia">
+    <img src="Pictures/RobloxScreenShot20240105_000203795.png" alt="Logo" width="1000" height="600">
+  </a>
 
 <h3 align="center">Cryogenia</h3>
 
@@ -59,7 +59,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#pictures">Pictures</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -96,17 +96,24 @@ This section below contains the major frameworks/libraries used to create our pr
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-<!--
-## Usage
+## Pictures
 
-Pictures:
-
-A snapshot of the way the AI thinks and stores memory
+A drone in action
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/Macbee280/ByteLand/blob/master/images/inner_thoughts.jpg?raw=true">
+    <img width="100%" src="Pictures/RobloxScreenShot20240105_000443894.png">
 </p>
 
---><p align="right">(<a href="#top">back to top</a>)</p>
+The icy ruins
+<p align="center" width="100%">
+    <img width="100%" src="Pictures/RobloxScreenShot20240105_000317628.png">
+</p>
+
+Ground Zero
+<p align="center" width="100%">
+    <img width="100%" src="Pictures/RobloxScreenShot20240105_000237030.png">
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 
