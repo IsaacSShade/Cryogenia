@@ -32,7 +32,7 @@
     <img src="Pictures/RobloxScreenShot20240105_000203795.png" alt="Logo" width="1000" height="600">
   </a>
 
-<h3 align="center">[Cryogenia](https://www.roblox.com/games/15687351266/Cryogenia)</h3>
+<h3 align="center">Cryogenia</h3>
 
 <p align="center">
     A frigid wasteland survival game with base building elements
