@@ -35,7 +35,7 @@
 <h3 align="center">Cryogenia</h3>
 
 <p align="center">
-    A wasteland survival with base building elements
+    A frigid wasteland survival game with base building elements
     <br />
     <a href="https://github.com/IsaacSShade/Cryogenia"><strong>Explore the docs »</strong></a>
     <br />
